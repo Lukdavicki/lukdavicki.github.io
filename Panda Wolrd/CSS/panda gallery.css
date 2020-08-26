@@ -1,0 +1,83 @@
+/* main+navbar css */
+/* main css */
+body{
+    background-image:url(../Images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin:0;
+}
+/* navbar CSS */
+div.container{
+    width:100%;
+    margin:0 auto;
+    background:#edd785;
+    opacity:100%;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+img.logo{
+    width:100px;
+    margin:0px 310px -5px 40px;
+    opacity: 100%;
+}
+
+
+ul.navbar{
+    margin-top:0px;
+    height:40px;
+}
+
+ ul.navbar li {
+    font-family: 'Lemonada', cursive;
+    margin-right:30px;
+    margin-top:10px;
+    font-size:large;
+    display:inline-block;
+ } 
+ .navbar a{
+     color:black;
+     text-decoration: none;
+     padding-top: 10px;
+     padding-bottom:14px;
+ }
+ .navbar a:hover{
+     background-color: blanchedalmond;
+     border-radius: 22px;
+ }
+  a.active{
+     color:grey;
+     border-radius:22px;
+     background-color:blanchedalmond
+  }
+  /* end of main+navbar css */
+  div.galleryContainer{
+    margin:60px;
+
+  }
+ 
+ 
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width:100% ;
+    height:auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }

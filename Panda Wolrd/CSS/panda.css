@@ -1,0 +1,193 @@
+/* main css */
+body{
+    background-image:url(../Images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin:0;
+}
+/* navbar CSS */
+div.container{
+    width:100%;
+    margin:0 auto;
+    background:#edd785;
+    opacity:100%;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+img{
+    width:100px;
+    margin:0px 310px -5px 40px;
+    opacity: 100%;
+}
+
+
+ul.navbar{
+    margin-top:0px;
+    height:40px;
+}
+
+ ul.navbar li {
+    font-family: 'Lemonada', cursive;
+    margin-right:30px;
+    margin-top:10px;
+    font-size:large;
+    display:inline-block;
+ } 
+ .navbar a{
+     color:black;
+     text-decoration: none;
+     padding-top: 10px;
+     padding-bottom:14px;
+ }
+ .navbar a:hover{
+     background-color: blanchedalmond;
+     border-radius: 22px;
+ }
+  a.active{
+     color:grey;
+     border-radius:22px;
+     background-color:blanchedalmond
+  }
+/* end of navbar CSS */
+/* begining of content - pandopedia - CSS */
+main{
+    float:right;
+    margin-right:400px;
+}
+
+
+h1{
+    margin-top:70px;
+    font-family: 'Lemonada',cursive;
+    text-align: center;
+}
+.paragraph{
+    width: 700px;
+    max-width: 700px;
+    min-width: 200px;
+    margin:10px auto;
+    border: 3px #dbc869 solid;
+    background-color:#edd785;
+    opacity:90%;
+}
+p::first-letter{
+    font-family: 'Raleway';
+    font-size: 200%;
+    font-weight: bold;
+}
+p{
+    font-family: 'Raleway';
+    text-align: justify;
+    margin: 0px 20px 20px 20px;
+}
+h2{
+    font-family: 'Raleway';
+    text-align:center;
+    text-decoration: underline;
+}
+lh{
+    font-family:'Raleway';
+    margin-left:-30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+div.general ul li{
+    font-family: 'Raleway';
+}
+/* pandopedia ToC CSS */
+div.toc{
+    float:left;
+    width: 300px;
+    height: 900px;
+    max-width: 500px;
+    min-width: 100px;
+}
+div.sticky{
+    float:left;
+    margin: 160px 0px 0px 20px;
+    padding: 0px 10px 0px 0px;
+    border: 3px #dbc869 solid;
+    background-color:#edd785;
+    opacity:90%;
+    position:sticky;
+    top:80px;
+}
+.toc a{
+    font-family: 'Raleway';
+    text-decoration:none;
+    color: black;
+    line-height:30px;
+}
+.toc lh{
+    margin-left:-30px;
+    text-decoration:underline;
+}
+.toc li{
+    list-style-type: upper-roman;
+}
+/* end of pandopedia CSS */
+/* panda world page CSS */
+main.pandaworldmain{
+    margin-right:340px;
+}
+div.existance-table{
+    font-family: 'Raleway';
+    border: 3px #dbc869 solid;
+    width:850px;
+    margin:0px 0px 0px 0px;
+}
+div h2#tableheading{
+    background-color: #edd785;
+    opacity:90%;
+    padding:20px;
+    margin:0;
+}
+
+table, th, td {
+    background-color:#edd785;
+    opacity:90%;
+    width:850px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+table tr:nth-child(even) {
+    background-color: black;
+}
+/* end of pandopedia table css */
+/* beginnig of zoo pandawolrd site css */
+
+.zoolist{
+    font-family: 'raleway';
+    background-color:#edd785;
+    opacity:90%;
+    width:850px;
+    border: 3px #dbc869 solid;
+    margin:30px 0px 30px 0px;
+}
+
+.zoolist2 li{
+    line-height:30px;
+    font-size: 15px;
+}
+.camerabutton{
+    background-color:orange;
+    border-radius:10px;
+    border: 3px #dbc869 solid;
+    cursor: pointer;
+}
+.zoolink{
+    float:right;
+    cursor: pointer;
+}
+.zoolink2{
+    float:right;
+    cursor: pointer;
+    margin-right:5px;
+}
+

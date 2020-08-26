@@ -1,0 +1,53 @@
+body{
+    background-image: url(../Images/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:   left;
+
+}
+h1{
+    font-family: 'Clicker Script', cursive;
+    font-size: 150px;
+    margin: 35px;
+    color:#e3a746;
+    opacity:84%;
+}
+.button{
+    font-family: 'Clicker Script', cursive;
+     background-color:#e3a746;
+     text-align: center;
+     border:none;
+     display:inline-block;
+     font-size: 40px;
+     opacity:90%;
+     margin-left:185px;
+     margin-top:50px;
+     border-radius:22px;
+     width:300px;   
+}
+
+.button {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover {
+    padding-right: 25px;
+  }
+  
+  .button:hover:after {
+    opacity: 1;
+    right: 0;
+  }
